@@ -3,5 +3,5 @@ $("html").bind("mouseleave touchend", function () {
 });
 
 $(".close").on('click',function(){
-   $("#paypalModal").hide();
+  $("#paypalModal").hide();
 });
