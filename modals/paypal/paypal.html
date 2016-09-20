@@ -1,15 +1,17 @@
 <meta charset="utf-8">
 
 <!--
-Copy the file mailchimp.css and paste inside your stylesheet folder
-And add this to HEADER of the HTML file
+Copy the file modal.css and paste inside your stylesheet folder
+Copy the file paypal.css and paste inside your stylesheet folder
+Now reference the copied files inside your HTML file
 -->
+<link rel="stylesheet" href="../modal.css" media="screen" type="text/css">
 <link rel="stylesheet" href="paypal.css" media="screen" type="text/css">
 
 <!-- Copy this and paste on BODY of the HTML file -->
-<div id="paypalModal" class="modalDialog">
-  <div>
-    <a href="#close" title="Close" class="close">X</a>
+<div id="modalFade">
+  <div id="modalDialog" class="modalPayPal">
+    <a href="#close" title="Close" class="closeModal">X</a>
     <h2>PayPal Modal Box</h2>
     <div>
       <!-- Payment Button Here -->
@@ -28,7 +30,7 @@ And add this to HEADER of the HTML file
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
 <!--
-Copy the file mailchimp.js and paste inside your javascript folder
+Copy the file paypal.js and paste inside your javascript folder
 And add this AFTER the importing of jQuery
 -->
-<script src="paypal.js"></script>
+<script src="../modal.js"></script>

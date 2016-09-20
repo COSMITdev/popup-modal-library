@@ -11,16 +11,15 @@ prototyping of HTML apps running as static sites
 
 ## Mailchimp Subscriber
 
-1. Copy the file mailchimp.css inside your stylesheet folder
-2. Copy the file mailchimp.js inside your javascripts folder
-3. Copy the content of <div id="mailchimpModal"> to your HTML file
-4. Read the instructions inside the HTML file
-5. Change variables and references like <form action=""> to your Mailchimp embeded IDs
+1. Copy the file mailchimp.js inside your javascripts folder
+2. Copy the content of <div id="modalFade"> to your HTML file
+3. Read the instructions inside the HTML file
+4. Change variables and references like <form action=""> to your Mailchimp embeded IDs
 
 ## PayPal 1 Button Payment
 
-1. Copy the file paypal.css inside your stylesheet folder
+1. (Optional) Copy the file paypal.css inside your stylesheet folder
 2. Copy the file paypal.js inside your javascripts folder
-3. Copy the content of <div id="paypalModal"> to your HTML file
+3. Copy the content of <div id="modalFade"> to your HTML file
 4. Read the instructions inside the HTML file
 5. Change the value on line `<input type="hidden" name="hosted_button_id" value="886S5UX64LZE8">` for your PayPal Vendor ID
