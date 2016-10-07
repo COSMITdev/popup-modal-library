@@ -7,7 +7,7 @@ $(".close").on('click',function(){
 });
 
 $('html').click(function (e) {
-  if (e.target.id != 'modalDialog') {
+  if (e.target.id != 'modalBox') {
     $("#modalFade").hide();
   }
 });
