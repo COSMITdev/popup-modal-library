@@ -12,7 +12,7 @@ prototyping of HTML apps running as static sites
 ## Mailchimp Subscriber
 
 1. Copy the file mailchimp.js inside your javascripts folder
-2. Copy the content of <div id="modalFade"> to your HTML file
+2. Copy the content of `<div id="modalFade">` to your HTML file
 3. Read the instructions inside the HTML file
 4. Change variables and references like <form action=""> to your Mailchimp embeded IDs
 
