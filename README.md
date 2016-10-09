@@ -1,4 +1,4 @@
-# "On Mouse Leave" Library (for Marvelapps)
+# "On Mouse Leave" Modal Library (for Marvelap Prototypes)
 
 This is a library/collection of useful "on mouse leave" Modals with the goal to speed up
 prototyping of HTML apps running as static sites
