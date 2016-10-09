@@ -2,12 +2,8 @@ $("html").bind("mouseleave touchend", function () {
   $("#modalFade").show();
 });
 
-$(".close").on('click',function(){
-  $("#modalFade").hide();
-});
-
 $('html').click(function (e) {
-  if (e.target.id != 'modalBox') {
+  if (e.target.id == 'modalFade' || e.target.id == 'closeModal') {
     $("#modalFade").hide();
   }
 });
